@@ -1,0 +1,34 @@
+.marsovac{
+    position: absolute;
+    width: 150px;
+left: 150px;
+top: 150px;
+animation-duration: 8s;
+animation-name: pomeranje;
+animation-iteration-count: infinite;
+}
+@keyframes pomeranje{
+    0%{
+        left: 150px;
+top: 150px;
+    }
+    25%{
+        left: 950px;
+top: 250px;
+width: 200px;
+    }
+    50%{
+        left:750px;
+        top: 450px;
+        width: 50px;
+    }
+    75%{
+        left:200px;
+        top: 500px;
+        width:300px;
+    }
+    100%{
+        left: 150px;
+        top: 150px;
+    }
+}
